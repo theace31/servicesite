@@ -15,6 +15,7 @@
                           MAIN CSS
   ==========================================-->
   <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/menu.css">
   <!--========================================
                           PRICE LIST CSS
   ==========================================-->
@@ -28,23 +29,35 @@
   <header>
  <div class="top_menu">
       <div id="center_head">
-         <img src="img/logo5.png" class="center">
+         <img src="img/logo5.png" class="center" alt="regularwebguylogo">
           <h1 class="number_cell" align="center"></h1>
-        <h1 align="center">REGULAR WEB GUY</h1>
+        <h2 class="#">REGULAR WEB GUY</h2>
       </div>
       <div></div>
 </div>
     <!-- =====================
         Navbar begins
     ========================== -->
-    <nav="topnav" id="myTopnav">
-        <a href="#home" class="active">HOME</a>
-        <a href="#news">NEWS</a>
-        <a href="#CONTACT">CONTACT</a>
-    </nav>
+    
     <!-- Navbar Ends -->
   </header>
-
+  <div class="topnav" id="myTopnav">
+        <a href="#home" class="active">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <div class="dropdown">
+          <button class="dropbtn">Dropdown 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+          </div>
+        </div> 
+        <a href="#about">About</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+      </div>
 
   <div class="container">
 	<div class="row">
@@ -291,8 +304,12 @@
   </div>
 </footer>
 
+<!--====================================================
+                Javascript  script
+=======================================================-->
 <script src="js/jquery-2.1.4.min.js"></script>
 <script src="js/bootstrap.js"></script>
+<script src="js/menu.js"></script>
 </body>
 
 
