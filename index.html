@@ -3,7 +3,7 @@
 <head>
   <meta charet="utf-8">
   <title>Regular Web Guy</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">  
   <meta name ="keyword" content="web design, wed developement, wordpress, graphic design">
   <meta name ="description"  content="web developement service local to the burbank area">
 
@@ -15,7 +15,7 @@
                           MAIN CSS
   ==========================================-->
   <link rel="stylesheet" href="css/main.css">
-  <link rel="stylesheet" href="css/menu.css">
+  <link rel="stylesheet" href="css/menu2.css">
   <!--========================================
                           PRICE LIST CSS
   ==========================================-->
@@ -23,7 +23,6 @@
   <!--========================================
                           CSS SECTION
   ==========================================-->
-
 </head>
 <body>
   <header>
@@ -31,285 +30,49 @@
       <div id="center_head">
          <img src="img/logo5.png" class="center" alt="regularwebguylogo">
           <h1 class="number_cell" align="center"></h1>
-        <h2 class="#">REGULAR WEB GUY</h2>
+        <h1 class="#"></h1>
       </div>
-      <div></div>
-</div>
+      
     <!-- =====================
         Navbar begins
     ========================== -->
-    
-    <!-- Navbar Ends -->
-  </header>
-  <div class="topnav" id="myTopnav">
-        <a href="#home" class="active">Home</a>
+    <nav>
+      <!--<div="dropdown">
+        <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+        <div id="myDropdown" class="dropdown-content">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </div>
+        </div>
+      -->
+        <a href="#home">Home</a>
         <a href="#news">News</a>
-        <a href="#contact">Contact</a>
         <div class="dropdown">
-          <button class="dropbtn">Dropdown 
-            <i class="fa fa-caret-down"></i>
+          <button class="dropbtn" onclick="myFunction()">Dropdown<i class="fa fa-caret-down"></i>
           </button>
-          <div class="dropdown-content">
+          <div class="dropdown-content" id="myDropdown">
             <a href="#">Link 1</a>
             <a href="#">Link 2</a>
             <a href="#">Link 3</a>
-          </div>
-        </div> 
-        <a href="#about">About</a>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-      </div>
 
-  <div class="container">
-	<div class="row">
-		<div class="col-lg-4 col-md-3 col-sm-4 ">
-            <section>
-                <h1>this is the body</h1>
-                <p>
-                        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
-                         Lorem Ipsum has been the industry's standard dummy text ever since the 
-                         1500s, when an unknown printer took a galley of type and scrambled it to
-                          make a type specimen book. It has survived not only five centuries, but 
-                          also the leap into electronic typesetting, remaining essentially unchanged. 
-                          It was popularised in the 1960s with the release of Letraset sheets 
-                          containing Lorem Ipsum passages, and more recently with desktop 
-                          publishing software like
-                         Aldus PageMaker including versions of Lorem Ipsum.
-                </p>
-            </section>
-    </div>
-  </div>
-  <div id="home_intro_table">
-    <section>
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <!-- PRICE HEADING START -->
-            <div class="price-heading clearfix">
-              <h1>Bootstrap Pricing Table</h1>
-            </div>
-            <!--//PRICE HEADING END-->
           </div>
         </div>
+   </nav>
+    <!-- Navbar Ends -->
+  </header>
+  
 
-      </div>
-      <div class="container">
-        <!-- BLOCK ROW START-->
-        <div class="row">
-          <div class="col-md-4">
-            <!-- PRICE CONTENT START-->
-            <div class="generic_content clearfix">
-
-              <!--HEAD PRICE DETAILS START-->
-              <div class="generic_head_price clearfix">
-
-                <!--HEAD CONTENT START-->
-                <div class="generic_head_content clearfix">
-
-                  <!--HEAD START-->
-                  <div class="head_bg"></div>
-                  <div class="head">
-                    <span>Basic</span>
-                  <img class="avatar_tag" src="img/oldie.png" />
-                  </div>
-                  <!--//HEAD END -->
-
-                </div>
-                <!--//HEAD CONTENT END-->
-
-                <!-- PRICE START-->
-                <div class="generic_price_tag clearfix">
-                  <span class="price">
-                    <span class="sign">$</span>
-                    <span class="currency">99</span>
-                    <span class="cent">.99</span>
-                    <span class="month">/MONTH</span>
-                  </span>
-                </div>
-                <!--//Price End-->
-              </div>
-              <!--//HEAD PRICE DETAIL END-->
-
-              <!--FEATURE LIST START-->
-              <div class="generic_feature_list">
-                <ul>
-                  <li><span>2GB</span>Bandwidth</li>
-                  <li><span>150GB</span>Storage</li>
-                  <li><span>12</span>Accounts</li>
-                  <li><span>7</span>Host Domian</li>
-                </ul>
-              </div>
-              <!--//FEATURE LIST END-->
-
-              <!--Button start-->
-              <div class="generic_price_btn clearfix">
-                <a class="#" href="#">Sign up</a>
-              </div>
-              <!--//button end-->
-
-            </div>
-            <!--//PRICE CONTENT END-->
-
-          </div><!--col-md-4-->
-          <div class="col-md-4">
-            <!-- PRICE CONTENT START-->
-            <div class="generic_content clearfix">
-
-              <!--HEAD PRICE DETAILS START-->
-              <div class="generic_head_price clearfix">
-
-                <!--HEAD CONTENT START-->
-                <div class="generic_head_content clearfix">
-
-                  <!--HEAD START-->
-                  <div class="head_bg"></div>
-                  <div class="head">
-                    <img class="avatar_tag" src="img/mitch.png" />
-                    <span>Basic</span>
-                  </div>
-                  <!--//HEAD END -->
-
-                </div>
-                <!--//HEAD CONTENT END-->
-
-                <!-- PRICE START-->
-                <div class="generic_price_tag clearfix">
-                  <span class="price">
-                    <span class="sign">$</span>
-                    <span class="currency">99</span>
-                    <span class="cent">.99</span>
-                    <span class="month">/MONTH</span>
-                  </span>
-                </div>
-                <!--//Price End-->
-              </div>
-              <!--//HEAD PRICE DETAIL END-->
-
-              <!--FEATURE LIST START-->
-              <div class="generic_feature_list">
-                <ul>
-                  <li><span>2GB</span>Bandwidth</li>
-                  <li><span>150GB</span>Storage</li>
-                  <li><span>12</span>Accounts</li>
-                  <li><span>7</span>Host Domian</li>
-                </ul>
-              </div>
-              <!--//FEATURE LIST END-->
-
-              <!--Button start-->
-              <div class="generic_price_btn clearfix">
-                <a class="#" href="#">Sign up</a>
-              </div>
-              <!--//button end-->
-
-            </div>
-            <!--//PRICE CONTENT END-->
-          </div><!--col-md-4-->
-
-          <div class="col-md-4">
-            <!-- PRICE CONTENT START-->
-            <div class="generic_content clearfix">
-
-              <!--HEAD PRICE DETAILS START-->
-              <div class="generic_head_price clearfix">
-
-                <!--HEAD CONTENT START-->
-                <div class="generic_head_content clearfix">
-
-                  <!--HEAD START-->
-                  <div class="head_bg"></div>
-                  <div class="head">
-                    <img class="avatar_tag" src="img/reg.png" />
-                    <span>Basic</span>
-                  </div>
-                  <!--//HEAD END -->
-
-                </div>
-                <!--//HEAD CONTENT END-->
-
-                <!-- PRICE START-->
-                <div class="generic_price_tag clearfix">
-                  <span class="price">
-                    <span class="sign">$</span>
-                    <span class="currency">99</span>
-                    <span class="cent">.99</span>
-                    <span class="month">/MONTH</span>
-                  </span>
-                </div>
-                <!--//Price End-->
-              </div>
-              <!--//HEAD PRICE DETAIL END-->
-
-              <!--FEATURE LIST START-->
-              <div class="generic_feature_list">
-                <ul>
-                  <li><span>2GB</span>Bandwidth</li>
-                  <li><span>150GB</span>Storage</li>
-                  <li><span>12</span>Accounts</li>
-                  <li><span>7</span>Host Domian</li>
-                </ul>
-              </div>
-              <!--//FEATURE LIST END-->
-
-              <!--Button start-->
-              <div class="generic_price_btn clearfix">
-                <a class="#" href="#">Sign up</a>
-              </div>
-              <!--//button end-->
-
-            </div>
-            <!--//PRICE CONTENT END-->
-          </div><!--col-md-4-->
-
-        </div>
-      </div>
-    </section>
-
-
-
-
-
-
-
-  </div>
-
-
-
-
-
-
-</div><!-- container -->
-</div>
-
-
-
-
-<div class="pre_footer">
-      <p>
-        hello test
-      </p>
-</div>
-<footer>
-  <span>818.659.6704</span>
-  <div class="row" id="copyright">
-    <div class="container">
-      <div class="col-md-3">
-        <ul id="social_tag">
-          <li><a target="_blank" href=""</li>
-          <li></li>
-          <li></li>
-          <li></li>
-        </ul>
-      </div>
-    </div>
-  </div>
-</footer>
 
 <!--====================================================
                 Javascript  script
 =======================================================-->
+<script src="js/menu2.js"></script>
 <script src="js/jquery-2.1.4.min.js"></script>
 <script src="js/bootstrap.js"></script>
-<script src="js/menu.js"></script>
+
+
+
 </body>
 
 
